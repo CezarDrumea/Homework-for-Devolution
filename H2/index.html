@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Homework 2</title>
+</head>
+<body>
+  <header>
+    My form website
+  </header>
+  <main>
+    <form action="./index.html" method="get">
+      <label for="login"><input type="text" name="login" required placeholder="Enter your login"></label>
+      <label for="password"><input type="password" name="password" required placeholder="Enter your password"></label>
+      <p>What are you?</p>
+      <label for="male">Male <input type="radio" name="male" id="male" checked></label>
+      <label for="female">Female <input type="radio" name="male" id="male"></label>
+      <label for="no-sex">Prefer not to say <input type="radio" name="no-sex" id="no-sex"></label>
+      <label for="hobbies">Select your hobbies (to select multiple options hold down ctrl on windows or command button on mac)
+        <select name="hobbies" id="hobbies" required multiple>
+          <option value="">(select your hobbies)</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Reading">Reading</option>
+          <option value="Watcing movies">Watcing movies</option>
+          <option value="Fishing">Fishing</option>
+          <option value="Carting">Carting</option>
+          <option value="Coding">Coding</option>
+          <option value="Preparing-food">Preparing food</option>
+          <option value="Jogging">Jogging</option>
+          <option value="Singing">Singing</option>
+          <option value="Playing-instruments">Playing instruments</option>
+        </select>
+      </label>
+      <label for="message"><textarea name="message" id="message" cols="30" rows="10" placeholder="Type a motivational letter (optional)"></textarea></label>
+      <label for="file-uploading">Upload some photos (optional)<input type="file"></label>
+      <label for="reset"><button type="reset">Reset</button></label>
+      <label for="submit"><button type="submit">Submit</button></label>
+    </form>
+  </main>
+  <footer>
+    <address>
+      Made by <a href="mailto:drumea.cezar@gmail.com" class="name">Drumea Cezar</a>
+    </address>
+  </footer>
+</body>
+</html>

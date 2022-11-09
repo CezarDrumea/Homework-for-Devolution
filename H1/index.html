@@ -1,0 +1,193 @@
+<!-- De invatat urmatoarele taguri:
+ul
+li
+img
+a
+footer
+nav
+header
+table
+
+1.	numele, familia - titlul paginii
+2.	3 imagini de pe internet
+3.	3 imgaini locale
+4.	folosind tagul <a> de linkuit 3 siteuri in aceeasi fila si 3 intr-o fila noua (in stiluri fara subliniere)
+5.	de folosit tagul footer la sfarsit si header la inceput
+6.	in footer: datele de contact (nickname, telefon)
+7.	in header: hellow world
+8.	de folosit tagul <table> elementele pare sa fie verzi si impare - rosii
+9.	de folosit tagul <ul> si <ol> cu <li> pe fon albastru: lista frameworkurilor js si css -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: rgb(30, 30, 30);
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .top {
+      width: 60%;
+    }
+
+    main {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    ul, ol {
+      margin: auto;
+      width: 10%;
+    }
+
+    table, th, td {
+      margin: auto;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      padding: 5px;
+    }
+
+    img {
+      border-radius: 15px;
+    }
+
+    .odd {
+      background-color: rgb(255, 120, 120);
+    }
+
+    .even {
+      background-color: rgb(120, 255, 120);
+    }
+
+    footer {
+      background-color:rgb(30, 30, 30);
+      color: white;
+      padding: 20px 0 20px 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link {
+      color: rgb(60, 60, 180)
+    }
+
+    .link:hover {
+      color:rgb(160, 160, 255)
+    }
+
+    .name {
+      color:rgb(100, 100, 100)
+    }
+
+    .name:hover {
+      color:rgb(130, 130, 130)
+    }
+
+    abbr {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>My first Homework for Devolution</h1>
+    </div>
+  </header>
+  <main>
+    <h2>Images</h2>
+    <p>Me</p>
+    <img src="./photos/cezar_piano.jpg" alt="Drumea Cezar" height="300px">
+    <img src="./photos/robo_piano.jpg" alt="robo piano" height="300px">
+    <p>3 piano composers</p>
+    <img src="https://hadikarimi.com/wp-content/uploads/2020/06/Liszt-1.jpg" alt="Franz Liszt" height="200px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Sergei_Rachmaninoff_cph.3a40575.jpg" alt="Sergei Rachmaninoff" height="200px">
+    <img src="https://miro.medium.com/max/1400/1*XjVw_-TCCvRNtxO42MuNEg.jpeg" alt="Frederic Chopin" height="200px">
+    <h2>Links</h2>
+    <p><a href="https://www.youtube.com/channel/UCsvXiRDeuTL7JKeypzTlAgA" class="link">My YT channel</a></p>
+    <h3>Some of my works</h3>
+    <a href="https://www.youtube.com/watch?v=boN5hPHdFjM" target="_blank" class="link">S. Rachmaninoff - Prelude op. 32 no. 5</a><br>
+    <a href="https://www.youtube.com/watch?v=98HQ3dNS2as" target="_blank" class="link">S. Rachmaninoff - Op. 38 no. 5 "The Dream"</a><br>
+    <a href="https://www.youtube.com/watch?v=wG_01Sq_4Hk" target="_blank" class="link">F. Liszt - Transcendental Etude 10</a>
+    <h2>Lists</h2>
+    <h3>10 best JS frameworks</h3>
+    <ol>
+      <li>React</li>
+      <li>Angular</li>
+      <li>Vue.js</li>
+      <li>Ember.js</li>
+      <li>Meteor</li>
+      <li>Mithril</li>
+      <li>Node.js</li>
+      <li>Polymer</li>
+      <li>Aurelia</li>
+      <li>Backbone.js</li>
+    </ol>
+    <h3>CSS frameworks</h3>
+    <ul>
+      <li>Tailwind CSS</li>
+      <li>Foundation</li>
+      <li>Bulma</li>
+      <li>Skeleton</li>
+      <li>Materialize CSS</li>
+    </ul>
+    <h2>Table</h2>
+    <h3>Timetable</h3>
+
+    <table>
+      <tr class="odd">
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+      <tr class="even">
+        <td>08:00-09:30</td>
+        <td><abbr title="Computational Logic">CL</abbr> crs</td>
+        <td></td>
+        <td><abbr title="Differential Calculus">DC</abbr> sem</td>
+        <td><abbr title="English">En</abbr></td>
+        <td><abbr title="Differential Calculus">DC</abbr> crs</td>
+        <td></td>
+      </tr>
+      <tr class="odd">
+        <td>09:45-11:15</td>
+        <td><abbr title="Computer Architecture and Assembly Language">ACLA</abbr> crs</td>
+        <td><abbr title="Computer Architecture and Assembly Language">ACLA</abbr> lab</td>
+        <td><abbr title="Basics of Programming">BoP</abbr> lab</td>
+        <td><abbr title="Computational Logic">CL</abbr> sem</td>
+        <td><abbr title="Algebra">Alg</abbr> crs</td>
+        <td></td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <address>
+      Made by <a href="mailto:drumea.cezar@gmail.com" class="name">Drumea Cezar</a>
+    </address>
+  </footer>
+</body>
+</html>

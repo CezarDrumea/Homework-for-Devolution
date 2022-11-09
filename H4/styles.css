@@ -1,0 +1,81 @@
+body {
+  background: url(./Pictures/autumn.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Lucida Handwriting
+}
+
+.cover {
+  background-color: rgba(234, 188, 111, 95%);
+  width: 50%;
+  height: 650px;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+
+h1, h2, h3, .even, .odd, .line {
+  text-align: center;
+  color: rgb(64, 40, 4);
+}
+
+.creator {
+  text-align: right;
+  color: rgb(64, 40, 4);
+  font-size: 10px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-top: 50px;
+  font-size: 40px;
+  text-shadow: rgb(64, 40, 4) 3px 3px 5px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: rgb(64, 40, 4) 1px 1px 5px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: rgb(64, 40, 4) 1px 1px 5px;
+}
+
+.odd {
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.even {
+  padding-right: 10%;
+  font-size: 20px;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+.old {
+  font-weight: bold;
+}
+
+.line {
+  font-size: 15px;
+  text-decoration: line-through;
+  font-weight: 900;
+}
