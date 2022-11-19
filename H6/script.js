@@ -4,14 +4,14 @@ function dayNight() {
   if (x.style.backgroundColor === "orange") {
     x.style.backgroundColor = "rgb(170, 170, 110)";
     document.getElementById("background").style.backgroundColor = "black";
-    for (var i = 0; i < star.length; i++ ) {
+    for (var i=0; i<star.length; i++ ) {
       star[i].style.visibility = "visible";
     }
   }
   else {
     x.style.backgroundColor = "orange";
     document.getElementById("background").style.backgroundColor = "white";
-    for (var i = 0; i < star.length; i++ ) {
+    for (var i=0; i<star.length; i++ ) {
       star[i].style.visibility = "hidden";
     }
   }
