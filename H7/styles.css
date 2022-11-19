@@ -1,0 +1,22 @@
+body {
+  background-color: black
+}
+
+.top {
+  height: 400px;
+  background-image: url(img/moon.png), url(img/moon.png), url(img/moon.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 200px, 200px, 300px;
+  background-position: top left, top right, center;
+  background-attachment: fixed, fixed, scroll;
+}
+
+.base {
+  height: 1000px;
+  background-image: url(img/moon.png), url(img/moon.png);
+  background-repeat: round no-repeat, no-repeat round;
+  background-size: 200px;
+}
+
+
+
