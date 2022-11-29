@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 50%;
+  background-color: #202020;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.hide {
+  width: 20%;
+  background-color: #505050;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #505050;
+  transition: 300ms;
+  text-align: center;
+}
+
+.hide:hover {
+  color: white;
+  transition: 500ms;
+}
+
+a {
+  width: 20%;
+  background-color: #505050;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* a:visited {
+  color: black;
+} */
+
+a:hover {
+  background-color: #404040;
+}
+
+a:active {
+  color: #909090;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #505050;
+  color: white;
+  border: 0;
+  padding: 0 5px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: white 0 0 5px;
+}
+
+.list {
+  width: 20%;
+  background-color: #505050;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  padding: 5px 0
+}
+
+li {
+  list-style: none;
+}
+
+.list li:first-child {
+  color: black;
+  font-weight: bold;
+}
+
+.list li:nth-child(2) {
+  color: white;
+  text-decoration: underline;
+}
+
+.list li:nth-child(5) {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.poetry {
+  width: 25%;
+  background-color: #505050;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 10px 10px;
+}
+
+.poetry::first-letter {
+  font-size: 24px;
+}
+
+.poetry::first-line {
+  font-style: italic;
+}
+
+.list2 {
+  width: 20%;
+  background-color: #505050;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  padding-left: 30px;
+}
+
+.list2 li::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f1e2';
+  font-weight: bold;
+  display: inline;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
