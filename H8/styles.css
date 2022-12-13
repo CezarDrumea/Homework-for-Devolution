@@ -135,7 +135,7 @@ li {
 
 .list2 li::before {
   font-family: 'Font Awesome 5 Free';
-  content: '\f1e2';
+  content: ' \f1e2';
   font-weight: bold;
   display: inline;
   padding-right: 5px;
