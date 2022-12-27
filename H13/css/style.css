@@ -1,0 +1,23 @@
+body {
+  background-color: #202020;
+  color: white;
+  margin: 5vw 10vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.category .pizza {
+  font-size: 36px;
+  font-weight: bold;
+}
+.category .to-menu {
+  font-size: 18px;
+  color: #a0a0a0;
+}
